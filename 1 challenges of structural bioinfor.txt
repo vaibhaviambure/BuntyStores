@@ -1,0 +1,14 @@
+1 challenges of structural bioinformatics
+2 biocarta 
+3 biocyc
+4 human pathway database 
+5 motifs & domain 
+6 folds & protein folding 
+7 homology modeling 
+8 drug 
+9 drug dicovery 
+10 lipid 
+11 ligand 
+12 metalloprotein 
+13 autodock
+14 pharmacodynamics and pharmacokinetics 

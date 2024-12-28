@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap-link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- bootstrap-icons link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+        integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <!-- Google font link -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Aclonica" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Buntystore</title>
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <div class="container-fluid top py-1 d-md-flex d-none text-white main-bg-color">
+            <div class="container">
+                <div class="d-flex justify-content-between topbar">
+                    <div class="top-info mt-1">
+                        <small class="me-3 text-white"><i class="bi bi-telephone me-2 text-light"></i>+91
+                            4578129674</small>
+                        <small class="me-3 text-white"><a href="#"><i
+                                    class="bi bi-envelope me-2 text-light"></i></a>Buntystore@gmail.com</small>
+                    </div>
+
+                    <div class="top-link d-flex justify-content-center align-items-center">
+                        <a href="" class="text-decoration-none text-light"><i
+                                class="bi bi-geo-alt text-light me-2"></i>Solapur</a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i
+                                class="bi bi-heart-fill text-danger"></i></a>
+                        <a href="" class="text-decoration-none text-light"><i
+                                class="bi bi-person text-light me-2"></i>Log In | Sign Up </a>
+                        <a href="" class=" me-0"><i class="fab fa-linkedin-in top text-light"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar-section start -->
+    <nav class="navbar navbar-expand-lg  bg-white">
+        <div class="container">
+            <a class="navbar-brand mb-5" href="#"><img src="images/logo bunty stores.jpg" alt="logo" width="120"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body flex-grow-0 mt-4 ">
+                    <form class="d-flex mx-auto w-100 " role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-danger main-bg-color text-light" type="submit"><i
+                                class="bi bi-search me-2"></i></i>Search</button>
+                        <button type="button" class="cart btn btn-outline-danger ms-5"><i
+                                class="bi bi-cart3 me-3"></i></i>Cart</button>
+                        <a href="" class="cart-icon text-decoration-none"><i
+                                class="bi bi-cart-fill ms-2 mt-2 main-color"></i></a>
+                    </form>
+                </div>
+                <ul class="navbar-nav justify-content-center me-5 pe-5 mt-3 flex-grow-5 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" aria-current="page" href="Index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link main-color fw-bold" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle main-color fw-bold" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            PRODUCTS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Spices.html">Spices</a></li>
+                            <li><a class="dropdown-item" href="Dryfruits.html">Dry fruits & Nuts</a></li>
+                            <li><a class="dropdown-item" href="Home.html">Home Essentials</a></li>
+                            <li><a class="dropdown-item" href="Pooja.html">Pooja Samagri</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link main-color fw-bold" href="#">INQUIRY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link main-color fw-bold" href="#">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- cards section start -->
+    <div class="main__title mt-5">
+        <h3 class="font-head d-flex main-color fw-bold">Spices (Masala)</h3>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4">
+                <div class="card">
+                    <img class="card-img" src="images/mustard-seeds-100g-f-0-1__60349.jpg" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Mustard Seed</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$355</h4> <span class="main-color fs-5">MRP</span> $73.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4">
+                <div class="card">
+                    <img class="card-img" src="images/mace-flower-100gm-f-0-1__60827.png" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Mace-flower</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$241</h4> <span class="main-color fs-5">MRP</span> $39.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/cumin-whole-50g-f-0-1__91325.jpg" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Cumin-whole</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$280</h4> <span class="main-color fs-5">MRP</span> $28.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/fennel-whole-200gm-f-0-1__53707.jpg" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Fennel-whole</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$456</h4> <span class="main-color fs-5">MRP</span> $51.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/ajwain-whole-100g-f-0-1__60661.jpg" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Fennel-whole</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$320</h4> <span class="main-color fs-5">MRP</span> $78.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/bay-leaf-100gm-f-0-1__54660.jpg" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Bay-leaf</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$410</h4> <span class="main-color fs-5">MRP</span> $56.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/black-cardamom-100gm-f-0-1__25027.webp" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Black-cardamom</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$350</h4> <span class="main-color fs-5">MRP</span> $75.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/black-pepper-whole-50g-f-0-1__32859.jpg" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Black-pepper</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$250</h4> <span class="main-color fs-5">MRP</span> $60.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/chilli-flakes-100gm-f-0-1__46727.png" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Chilli-flakes</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$190</h4> <span class="main-color fs-5">MRP</span> $40.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/cinnamon-sticks-50g-f-0-1__62057.jpg" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Cinnamon-sticks</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$160</h4> <span class="main-color fs-5">MRP</span> $14.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/cloves-whole50g-f-0-1__87782.jpg" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Cloves-whole</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$145</h4> <span class="main-color fs-5">MRP</span> $32.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/coriander-whole-100g-f-0-1__08544.jpg" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Coriander-whole</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$118</h4> <span class="main-color fs-5">MRP</span> $21.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/fenugreek-seeds-100g-f-0-1__29885.jpg" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Fenugreek-seeds</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$115</h4> <span class="main-color fs-5">MRP</span> $12.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/green-cardamom-25g-f-0-1__86646.jpg" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Green-cardamom</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$210</h4> <span class="main-color fs-5">MRP</span> $50.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/nutmeg-whole-100gm-f-0-1__63910.png" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">nutmeg-whole</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$180</h4> <span class="main-color fs-5">MRP</span> $10.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/schezwan-pepper-200gm-f-0-1__81879.png" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Schezwan-pepper</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$150</h4> <span class="main-color fs-5">MRP</span> $25.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/shahjeera-whole-200g-f-0-1__95742.png" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Shahjeera-whole</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$122</h4> <span class="main-color fs-5">MRP</span> $15.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/staranise-100gm-f-0-1__55304.webp" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Staranise</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$130</h4> <span class="main-color fs-5">MRP</span> $35.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6 col-lg-3 mt-4 ">
+                <div class="card">
+                    <img class="card-img" src="images/white-pepper-whole-100gm-f-0-1__40441.png" alt="Vans">
+                    <div class="card-img-overlay d-flex justify-content-end">
+                        <a href="#" class="card-link text-danger like">
+                            <i class="bi bi-heart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">white-pepper</h4>
+
+                        <div class="buy d-flex justify-content-between align-items-center">
+                            <div class="price text-dark">
+                                <h4 class="mt-4">$120</h4> <span class="main-color fs-5">MRP</span> $25.00
+                            </div>
+                            <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section start -->
+    <footer class="site-footer shadow-lg section-padding py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo bunty stores.jpg" alt="logo" width="120">
+                    </a><br><br>
+                    <h6 class="main-color"><strong>Need Help?</strong></h6>
+                    <p>Visit our customer support<br>for assistance or call us
+                        at<br><strong>123-458-7895</strong></p>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <h6 class=" site-footer-title mt-4 main-color">Menu</h6>
+
+                    <ul class="site-footer-links p-0">
+                        <li class="site-footer-link-item list-unstyled ">
+                            <a href="#" class="site-footer-link text-decoration-none text-dark">About</a>
+                        </li>
+
+                        <li class="site-footer-link-item list-unstyled">
+                            <a href="#" class="site-footer-link text-decoration-none text-dark">Products</a>
+                        </li>
+
+                        <li class="site-footer-link-item list-unstyled">
+                            <a href="#" class="site-footer-link text-decoration-none text-dark">Inquiry</a>
+                        </li>
+
+                        <li class="site-footer-link-item list-unstyled ">
+                            <a href="#" class="site-footer-link text-decoration-none text-dark">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <h6 class=" site-footer-title mt-4 main-color">Categories</h6>
+
+                    <ul class="site-footer-links p-0">
+                        <li class="site-footer-link-item list-unstyled">
+                            <a href="#" class="site-footer-link text-decoration-none text-dark">Spices</a>
+                        </li>
+
+                        <li class="site-footer-link-item list-unstyled">
+                            <a href="#" class="site-footer-link text-decoration-none text-dark">Pooja Samagri</a>
+                        </li>
+
+                        <li class="site-footer-link-item list-unstyled">
+                            <a href="#" class="site-footer-link text-decoration-none text-dark">Dry fruits & Nuts</a>
+                        </li>
+
+                        <li class="site-footer-link-item list-unstyled">
+                            <a href="#" class="site-footer-link text-decoration-none text-dark">Home Essentials</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <h6 class=" site-footer-title mt-4 main-color">Have a Questions?</h6>
+                    <ul class="site-footer-links p-0">
+                        <li class="site-footer-link-item list-unstyled mt-3">
+                            <a href="#" class="site-footer-link text-decoration-none text-dark"><i
+                                    class="bi bi-geo-alt-fill me-3"></i>203 fake st.Mountain view,san</a>
+                        </li>
+                        <li class="site-footer-link-item list-unstyled mt-2">
+                            <a href="#" class="site-footer-link text-decoration-none text-dark"><i
+                                    class="bi bi-telephone-fill me-3"></i>+2234</a>
+                        </li>
+                        <li class="site-footer-link-item list-unstyled mt-2">
+                            <a href="#" class="site-footer-link text-decoration-none text-dark"><i
+                                    class="bi bi-envelope-fill me-3"></i>Info@Vertextechnosys.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <p class="last-footer text-center"><strong>Design & Developed by <a href="https://vertextechnosys.com/"
+                            class="text-decoration-none main-color">Vertex Technosys</a></strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- javascript link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

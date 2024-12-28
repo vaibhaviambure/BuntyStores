@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .product-image {
+            width: 100%;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .product-details {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px;
+        }
+
+        .product-title {
+            font-weight: bold;
+        }
+
+        .product-price {
+            font-size: 24px;
+            color: #e63946;
+        }
+
+        .product-old-price {
+            text-decoration: line-through;
+            color: grey;
+            margin-right: 10px;
+        }
+
+        .rating {
+            color: #f1c40f;
+        }
+
+        .product-description {
+            margin-top: 20px;
+        }
+
+        .top-brand-badge {
+            background-color: #6c757d;
+            color: white;
+            padding: 3px 7px;
+            border-radius: 5px;
+        }
+
+        .btn-buy {
+            background-color: #ff6b6b;
+            color: white;
+        }
+
+        .btn-cart {
+            background-color: #2ecc71;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Product Image -->
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/500" class="product-image" alt="Product Image">
+            </div>
+            
+            <!-- Product Details -->
+            <div class="col-md-6">
+                <div class="product-details">
+                    <h2 class="product-title">Breakfast Flakes</h2>
+                    <span class="top-brand-badge">Top Brand</span>
+                    <p class="mt-3"><strong>Choco Cereal</strong></p>
+
+                    <!-- Product Price -->
+                    <p class="product-price">
+                        <span class="product-old-price">$260</span>
+                        $148 <span class="text-success">(46% off)</span>
+                    </p>
+
+                    <!-- Product Ratings -->
+                    <p>
+                        <span class="rating">★ ★ ★ ☆ ☆</span> 3.9/5 (1095 Ratings, 875 Reviews)
+                    </p>
+
+                    <!-- Product Features -->
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item">92% positive ratings from 1k customers</li>
+                        <li class="list-group-item">10k+ recent orders from this brand</li>
+                        <li class="list-group-item">2+ years on Bunty Stores</li>
+                    </ul>
+
+                    <!-- Action Buttons -->
+                    <div class="d-flex gap-3">
+                        <button class="btn btn-cart">Add to Cart</button>
+                        <button class="btn btn-buy">Buy Now</button>
+                    </div>
+
+                    <!-- Product Description -->
+                    <div class="product-description">
+                        <h5>Product Details</h5>
+                        <p>
+                            <strong>Yo Chos</strong> from Yogabar is strong in calcium and protein, all of which are important for your child’s growing body. It is fortified with important vitamins and minerals for your active children. Our chocolatey, crunchy, grain-based cereal is a wonderful pick-me-up at school or as an evening snack.
+                        </p>
+                        <p><strong>Country of Origin:</strong> India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Check Delivery Section -->
+        <div class="mt-5">
+            <h5>Check Delivery Date</h5>
+            <form class="row g-3">
+                <div class="col-auto">
+                    <input type="text" class="form-control" placeholder="Enter Delivery Pincode">
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3">Check</button>
+                </div>
+            </form>
+            <p><strong>Dispatch:</strong> 2 Day</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
